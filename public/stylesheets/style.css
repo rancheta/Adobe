@@ -1,0 +1,15 @@
+body {
+	font-family: "Open Sans", Sans-Serif;
+}
+
+.carouselHolder {
+	height: 300px;
+	overflow: hidden;
+}
+
+.carouselImg {
+	position: absolute;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}

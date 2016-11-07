@@ -6,8 +6,17 @@
     <title>Adobe Carousel</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/core-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/md5-min.js"></script>
   </head>
   <body>
-    <h1>Basic Layout</h1> 
+    <h1>My Lovely Seattle Carousel</h1> 
+    <main>
+      <div class="carouselHolder" id="carouselHolder"></div>
+      <button onclick="rotateCarouselCounterClockwise()" > Rotate Counter Clockwise</button>
+      <button onclick="rotateCarouselClockwise()" id="carouselHolder">Rotate Clockwise</button>
+    </main>
+    <script type="text/javascript" src="scripts/utilities.js"></script>
+    <script type="text/javascript" src="scripts/carousel.js"></script>
   </body>
 </html>
