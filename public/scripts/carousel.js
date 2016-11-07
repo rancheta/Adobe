@@ -62,5 +62,5 @@ var flickrUrl = 'https://api.flickr.com/services/rest/?method=flickr.photos.sear
 httpGetUrl(flickrUrl, function(data) {
 	console.log(JSON.parse(data))
 	buildCarousel(JSON.parse(data).photos.photo)
-	setTimeout(collapseCarouselOnLoad(), 500)
+	setTimeout(collapseCarouselOnLoad(), 1000)
 })
