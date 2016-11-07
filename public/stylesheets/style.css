@@ -1,10 +1,14 @@
 body {
 	font-family: "Open Sans", Sans-Serif;
+	text-align: center;
+	overflow: hidden;
 }
 
 .carouselHolder {
 	height: 300px;
 	overflow: hidden;
+	max-width: 500px;
+	margin-bottom: 24px;
 }
 
 .carouselImg {
@@ -12,4 +16,16 @@ body {
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
+}
+
+button {
+	background-color: white;
+	border: 1px solid #444;
+	padding: 10px 14px;
+	transition: all 0.5s;
+}
+
+button:hover {
+	background-color: #efefef;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.01)
 }
